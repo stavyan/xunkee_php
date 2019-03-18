@@ -7,7 +7,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="keywords" content="{{$keywords ?? ''}}">
     <meta name="description" content="{{$description ?? ''}}">
-    <title>{{Auth::check() ? Auth::user()->nick_name.' - ' : ''}}{{$title ?? 'MeEdu'}}</title>
+    <title>{{Auth::check() ? Auth::user()->nick_name.' - ' : ''}}{{'XunKee'}}</title>
     <link href="https://lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="{{ mix('css/frontend.css') }}" rel="stylesheet">
     <script src="{{ mix('js/frontend.js') }}"></script>
