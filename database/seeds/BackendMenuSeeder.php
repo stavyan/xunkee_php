@@ -121,16 +121,16 @@ class BackendMenuSeeder extends Seeder
                 ],
             ],
             [
-                'name' => 'FAQ',
+                'name' => '文章',
                 'url' => '',
                 'permission_id' => 0,
                 'children' => [
                     [
-                        'name' => 'FAQ分类',
+                        'name' => '文章分类',
                         'url' => '/backend/faq/category',
                     ],
                     [
-                        'name' => 'FAQ文章',
+                        'name' => '文章列表',
                         'url' => '/backend/faq/article',
                     ],
                 ],
