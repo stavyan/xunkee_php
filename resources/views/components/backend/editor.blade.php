@@ -19,6 +19,7 @@
             $editorContent.val(html)
         };
         $editor1.create();
+        $editor1.attr('style','height:auto;');
         $editorContent.val($editor1.txt.html());
     });
 </script>
