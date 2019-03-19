@@ -19,7 +19,6 @@
             $editorContent.val(html)
         };
         $editor1.create();
-        $editor1.$('img').attr('style','width: 100%;');
         $editorContent.val($editor1.txt.html());
     });
 </script>
