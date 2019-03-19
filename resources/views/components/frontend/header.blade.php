@@ -29,7 +29,7 @@
                 @endif
                 @if(config('meedu.system.indexMenu.faq'))
                 <li>
-                    <a class="{{ menu_is_active('faq') }}" href="{{ route('faq') }}">FAQ</a>
+                    <a class="{{ menu_is_active('faq') }}" href="{{ route('faq') }}">文章</a>
                 </li>
                 @endif
                 @foreach($nav as $item)

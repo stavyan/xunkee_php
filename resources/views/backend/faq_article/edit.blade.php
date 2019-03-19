@@ -2,7 +2,7 @@
 
 @section('body')
 
-    @include('components.breadcrumb', ['name' => '编辑FAQ文章'])
+    @include('components.breadcrumb', ['name' => '编辑文章'])
 
     <div class="row row-cards">
         <div class="col-sm-12">

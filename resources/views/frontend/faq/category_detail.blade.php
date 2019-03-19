@@ -14,7 +14,7 @@
     <div class="row">
         <div class="col-sm-12">
             <nav class="breadcrumb">
-                <li class="breadcrumb-item"><a href="{{route('faq')}}">FAQ</a></li>
+                <li class="breadcrumb-item"><a href="{{route('faq')}}">文章</a></li>
                 <li class="breadcrumb-item active" aria-current="page">{{$category->name}}</li>
             </nav>
         </div>
